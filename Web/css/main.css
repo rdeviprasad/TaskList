@@ -1,0 +1,149 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+#wrapper {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.container {
+	width: 780px;
+	margin: 0 auto;
+	padding: 30px;
+	font-family: Arial;
+}
+
+.container div + div {
+	margin-top: 1em;
+}
+
+.container div {
+	padding: 10px;
+}
+
+.app-name {
+	text-align: left;
+	vertical-align: middle;
+	width: 550px;
+	height: 60px;
+	background-color: #ddd;
+	border: 1px solid #ccc;
+	margin: 0 auto;
+}
+
+.app-name h2 {
+	font-size: 35px;
+	padding: 3px;
+	font-weight: normal;
+}
+
+.task-form, .tasks-list {
+	width: 100%;
+}
+
+.task-form .form-group {
+	width: 80%;
+	padding-left: 5%;
+}
+
+.task-form button {
+	margin-left: 5%;
+	width: 80px;
+	border-radius: 0;
+	display: block;
+	height: 20px;
+	vertical-align: middle;
+}
+.task-input {
+	width: 100%;
+	display: block;
+	height: 30px;
+	margin-top: 10px;
+	border-color: #eee;
+}
+
+.task-name {
+	display: block;
+	padding-left: 2px;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+#task-list h5 {
+	font-weight: normal;
+	padding-left: 25px;
+}
+
+h5.form-label {
+	font-size: 17px;
+	margin-bottom: 5px;
+}
+
+.tasks-list {
+	list-style-type: none;
+	padding-left: 25px;
+	font-size: 15px;
+}
+
+.container div h3 {
+    font-weight: normal;
+    background: #ddd;
+    display: block;
+    padding: 5px;
+    width: 500px;
+    margin-bottom: 15px;
+}
+
+#new-task, #task-list {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.tasks-list li {
+	display: block;
+	width: 100%;
+	background-color: #ddd;
+	padding: 1%;
+	padding-bottom: 0;
+	vertical-align: middle;
+	border-top: 1px solid #ccc;
+}
+
+.tasks-list li:nth-child(even) {
+	background-color: #fff;
+}
+
+.tasks-list li span {
+	display: inline-block;
+	width: 45%;
+	vertical-align: middle;
+	height: 100%;
+}
+
+.btn-delete {
+	background-color: #f44;
+	width: 55px;
+	display: block;
+	height: 25px;
+	color: #fff;
+	cursor: pointer;
+	border: 1px solid #f44;
+	text-align: center;
+	float: right;
+}
+
+.task-description {
+	width: auto;
+}
+
+.task-action {
+	padding-bottom: 5px;
+}
